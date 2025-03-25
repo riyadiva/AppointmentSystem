@@ -13,12 +13,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.riya.doctorpatientappointmentsystem.presentation.Screens.AppointmentScreen
-import com.riya.doctorpatientappointmentsystem.presentation.Screens.BookingScreen
-import com.riya.doctorpatientappointmentsystem.presentation.Screens.ChatScreen
-import com.riya.doctorpatientappointmentsystem.presentation.Screens.ConfirmationScreen
-import com.riya.doctorpatientappointmentsystem.presentation.Screens.DashboardScreen
-import com.riya.doctorpatientappointmentsystem.presentation.Screens.ProfileScreen
+import com.riya.doctorpatientappointmentsystem.presentation.Screens.*
 import com.riya.doctorpatientappointmentsystem.presentation.authentication.LoginScreen
 import com.riya.doctorpatientappointmentsystem.presentation.authentication.SignUpScreen
 import com.riya.doctorpatientappointmentsystem.presentation.composable.BottomNavigationBar
@@ -89,10 +84,30 @@ fun AppNavHost(navController: NavHostController = rememberNavController()) {
                         navController = navController
                     )
                 }
+
+                // ChatDetailScreen route with args
+                composable(
+                    route = "chatDetail/{doctorId}/{doctorName}/{imageId}",
+                    arguments = listOf(
+                        navArgument("doctorId") { type = NavType.StringType },
+                        navArgument("doctorName") { type = NavType.StringType },
+                        navArgument("imageId") { type = NavType.IntType }
+                    )
+                ) { backStackEntry ->
+                    val doctorId = backStackEntry.arguments?.getString("doctorId") ?: ""
+                    val doctorName = backStackEntry.arguments?.getString("doctorName") ?: ""
+                    val imageId = backStackEntry.arguments?.getInt("imageId") ?: 0
+                    ChatDetailScreen(
+                        navController = navController,
+                        doctorId = doctorId,
+                        doctorName = doctorName,
+                        doctorImage = imageId
+                    )
+                }
+
             }
         }
 
-        // Show bottom nav only for main routes
         if (selectedIndex != -1) {
             BottomNavigationBar(selectedItem = selectedIndex) { index ->
                 when (index) {
