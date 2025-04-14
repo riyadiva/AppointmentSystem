@@ -52,7 +52,7 @@ A modern Android app built using **Jetpack Compose** that allows patients to sea
 ## ⚙️ Setup Instructions
 
 1. Clone the repo:
-git clone: https://github.com/pine-needle/DoctorAppointmentSystem_riya_03242025.git
+git clone: https://github.com/riyadiva/AppointmentSystem.git
 
 
 2. Open in **Android Studio**.
