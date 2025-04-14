@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "223599686865",
+    "project_id": "doctorpatientappointment-f448b",
+    "storage_bucket": "doctorpatientappointment-f448b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223599686865:android:67b9ad4b991a6a081c01f0",
+        "android_client_info": {
+          "package_name": "com.riya.doctorpatientappointmentsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223599686865-h27llo6v6qrgcvo5bigr6qssnb6hnprd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riya.doctorpatientappointmentsystem",
+            "certificate_hash": "624c2ef7d260333c07b68c5190fdfb612ee5ac9f"
+          }
+        },
+        {
+          "client_id": "223599686865-sr42js14enc0jduuicnf6o3d8f3419hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI7I4wFbv2FPWcCe8AuG6fwS22nihAamI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223599686865-sr42js14enc0jduuicnf6o3d8f3419hq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
