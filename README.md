@@ -8,20 +8,20 @@ A modern Android app built using **Jetpack Compose** that allows patients to sea
 
 | Login | Signup |
 |-------|--------|
-| <img width="322" alt="Screenshot 2025-03-24 at 6 06 35 PM" src="https://github.com/user-attachments/assets/1574232f-9fe7-47c3-ae17-47d70f8a5172" /> | <img width="329" alt="Screenshot 2025-03-24 at 6 06 43 PM" src="https://github.com/user-attachments/assets/9622f81e-2f98-408c-97f0-913153a58eeb"/>|
+| <img width="322" alt="lohin" src="https://github.com/user-attachments/assets/08534e41-4b85-49b6-b235-f6fabe0708c4" /> | <img width="329" alt="signup" src="https://github.com/user-attachments/assets/5c1e4d9a-e080-44da-a24e-3b1628b17f13" /> |
 
 | Home | Doctors List |Search |
 |------|---------------------|---------------------|
-| <img width="333" alt="Screenshot 2025-03-24 at 6 07 05 PM" src="https://github.com/user-attachments/assets/7e69203d-4ee5-4d92-aef4-a1924cc71c56" />| <img width="337" alt="Screenshot 2025-03-24 at 6 07 13 PM" src="https://github.com/user-attachments/assets/cca9443b-4ad4-460d-b9ce-123e52b54312" />|<img width="335" alt="Screenshot 2025-03-24 at 6 07 33 PM" src="https://github.com/user-attachments/assets/659814a5-1cbc-4f81-871f-3e2d1f07a383" />|
+| <img width="333" alt="home" src="https://github.com/user-attachments/assets/86be0045-7a59-4d93-be5a-9148ca88c820" />| <img width="337" alt="list" src="https://github.com/user-attachments/assets/54deb36e-4943-4613-8ab7-df718fd8b671" />|<img width="335" alt="search" src="https://github.com/user-attachments/assets/5a83c1f3-755d-4ff3-b49d-f106b4aa9b91" />|
 
 
 | Booking | Confirmation | Appointments |
 |---------|--------------|--------------|
-| <img width="331" alt="Screenshot 2025-03-24 at 6 07 56 PM" src="https://github.com/user-attachments/assets/6b2e8128-fc3b-4695-962b-d1594fe00e50" />| <img width="355" alt="Screenshot 2025-03-24 at 6 08 03 PM" src="https://github.com/user-attachments/assets/bc5c59c6-1fed-49bb-8fea-29a61fbbd301" />| <img width="344" alt="Screenshot 2025-03-24 at 6 07 46 PM" src="https://github.com/user-attachments/assets/174ccfc8-2d41-40a4-b935-f7c5ffeca368" />|
+| <img width="331" alt="booking" src="https://github.com/user-attachments/assets/2c9b9984-bf4b-4ae7-899f-c38e82e14158" />| <img width="355" alt="confirmation" src="https://github.com/user-attachments/assets/e60d3202-7fc8-4cdd-b26d-79244b28703c" />| <img width="344" alt="appointmentlist" src="https://github.com/user-attachments/assets/d7ccfd2b-f411-4966-91da-7298eb730416" />|
 
 | Chat List | Chat Detail | Chat Detail |
 |-----------|-------------|-------------|
-| <img width="337" alt="Screenshot 2025-03-24 at 6 08 11 PM" src="https://github.com/user-attachments/assets/1ffa126a-bd65-49a1-8fe8-462dddebfc48" />| <img width="382" alt="Screenshot 2025-03-24 at 6 08 31 PM" src="https://github.com/user-attachments/assets/28c2f43c-97e0-4e79-952c-e6f746407f5b" />|<img width="347" alt="Screenshot 2025-03-24 at 6 08 36 PM" src="https://github.com/user-attachments/assets/392554ba-c8e2-4551-b1bb-12a88d15e693" />|
+| <img width="337" alt="chatlist" src="https://github.com/user-attachments/assets/63fa2855-e8a4-41c2-98d2-4780f7b0a62c" />| <img width="382" alt="chatdetail" src="https://github.com/user-attachments/assets/89b2eb3b-058d-44a3-9bd9-8b474f0547fe" />|<img width="347" alt="chatdetail2" src="https://github.com/user-attachments/assets/ba620f32-7bee-4f3f-b625-50866acf2506" />|
 
 ---
 
